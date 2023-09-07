@@ -19,11 +19,12 @@ public class UdemyTest {
     public void test(){
         driver = new DriverFactory().initializeDriver();
         driver.get("https://www.zilverenkruis.nl/consumenten");
+        driver.manage().window().maximize();
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         wait.until(ExpectedConditions.elementToBeClickable(By.id("cookiedrie"))).click();
 
-        driver.findElement(By.cssSelector("[placeholder='Zoeken']")).sendKeys("Premie");
-        driver.findElement(By.cssSelector(".coveo-search-button")).click();
+        driver.findElement(By.xpath("//*[@placeholder='Zoeken']")).sendKeys("Premie");
+        driver.findElement(By.xpath("//*[@class='coveo-search-button']")).click();
         driver.quit();
     }
 }
