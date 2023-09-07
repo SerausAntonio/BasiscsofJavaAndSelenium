@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-07T11:50:27 CEST" name="Surefire suite" finished-at="2023-09-07T11:50:35 CEST" duration-ms="7866">
+  <suite started-at="2023-09-07T12:04:16 CEST" name="Surefire suite" finished-at="2023-09-07T12:04:24 CEST" duration-ms="8248">
     <groups>
     </groups>
-    <test started-at="2023-09-07T11:50:27 CEST" name="Surefire test" finished-at="2023-09-07T11:50:35 CEST" duration-ms="7866">
+    <test started-at="2023-09-07T12:04:16 CEST" name="Surefire test" finished-at="2023-09-07T12:04:24 CEST" duration-ms="8248">
       <class name="com.selenium.tests.UdemyTest">
-        <test-method signature="test()[pri:0, instance:com.selenium.tests.UdemyTest@60704c]" started-at="2023-09-07T11:50:28 CEST" name="test" finished-at="2023-09-07T11:50:35 CEST" duration-ms="7818" status="FAIL">
+        <test-method signature="test()[pri:0, instance:com.selenium.tests.UdemyTest@60704c]" started-at="2023-09-07T12:04:16 CEST" name="test" finished-at="2023-09-07T12:04:24 CEST" duration-ms="8224" status="FAIL">
           <exception class="org.openqa.selenium.ElementNotInteractableException">
             <message>
               <![CDATA[element not interactable
@@ -15,10 +15,10 @@
 Build info: version: '4.12.1', revision: '8e34639b11'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [76e620e4560d8a2b5767486b9d8dd722, sendKeysToElement {id=76B0B959818590E6F7F2E8E4C81369DB_element_41, value=[Ljava.lang.CharSequence;@23cd4ff2}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.179, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59591}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59591/devtoo..., se:cdpVersion: 116.0.5845.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (76e620e4560d8a2b5767486b9d8dd722)] -> css selector: [placeholder='Zoeken']]
-Session ID: 76e620e4560d8a2b5767486b9d8dd722]]>
+Command: [9ede1c57fd83a19f8cf2fbe39b8aee0b, sendKeysToElement {id=54B6046AF0D384843015C05D54820312_element_42, value=[Ljava.lang.CharSequence;@2160e52a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.179, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60143}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60143/devtoo..., se:cdpVersion: 116.0.5845.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (9ede1c57fd83a19f8cf2fbe39b8aee0b)] -> xpath: //*[@placeholder='Zoeken']]
+Session ID: 9ede1c57fd83a19f8cf2fbe39b8aee0b]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
@@ -26,10 +26,10 @@ Session ID: 76e620e4560d8a2b5767486b9d8dd722]]>
 Build info: version: '4.12.1', revision: '8e34639b11'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [76e620e4560d8a2b5767486b9d8dd722, sendKeysToElement {id=76B0B959818590E6F7F2E8E4C81369DB_element_41, value=[Ljava.lang.CharSequence;@23cd4ff2}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.179, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59591}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59591/devtoo..., se:cdpVersion: 116.0.5845.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (76e620e4560d8a2b5767486b9d8dd722)] -> css selector: [placeholder='Zoeken']]
-Session ID: 76e620e4560d8a2b5767486b9d8dd722
+Command: [9ede1c57fd83a19f8cf2fbe39b8aee0b, sendKeysToElement {id=54B6046AF0D384843015C05D54820312_element_42, value=[Ljava.lang.CharSequence;@2160e52a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.179, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60143}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60143/devtoo..., se:cdpVersion: 116.0.5845.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (9ede1c57fd83a19f8cf2fbe39b8aee0b)] -> xpath: //*[@placeholder='Zoeken']]
+Session ID: 9ede1c57fd83a19f8cf2fbe39b8aee0b
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -44,7 +44,7 @@ at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverComman
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
 at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
 at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:111)
-at com.selenium.tests.UdemyTest.test(UdemyTest.java:25)
+at com.selenium.tests.UdemyTest.test(UdemyTest.java:26)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
