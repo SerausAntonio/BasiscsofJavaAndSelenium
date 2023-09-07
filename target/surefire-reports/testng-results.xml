@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-07T12:15:52 CEST" name="Surefire suite" finished-at="2023-09-07T12:16:00 CEST" duration-ms="7653">
+  <suite started-at="2023-09-07T20:06:25 CEST" name="Surefire suite" finished-at="2023-09-07T20:06:33 CEST" duration-ms="8363">
     <groups>
     </groups>
-    <test started-at="2023-09-07T12:15:52 CEST" name="Surefire test" finished-at="2023-09-07T12:16:00 CEST" duration-ms="7653">
+    <test started-at="2023-09-07T20:06:25 CEST" name="Surefire test" finished-at="2023-09-07T20:06:33 CEST" duration-ms="8363">
       <class name="com.selenium.tests.UdemyTest">
-        <test-method signature="test()[pri:0, instance:com.selenium.tests.UdemyTest@60704c]" started-at="2023-09-07T12:15:52 CEST" name="test" finished-at="2023-09-07T12:16:00 CEST" duration-ms="7617" status="PASS">
+        <test-method signature="test()[pri:0, instance:com.selenium.tests.UdemyTest@60704c]" started-at="2023-09-07T20:06:25 CEST" name="test" finished-at="2023-09-07T20:06:33 CEST" duration-ms="8322" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
