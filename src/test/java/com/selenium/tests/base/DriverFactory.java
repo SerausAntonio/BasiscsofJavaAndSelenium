@@ -5,11 +5,11 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
 public class DriverFactory {
-   // WebDriver driver;
+    WebDriver driver;
     public WebDriver initializeDriver(){
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--headless");
-        WebDriver driver = new ChromeDriver();
+        driver = new ChromeDriver(options);
         return driver;
     }
 }
